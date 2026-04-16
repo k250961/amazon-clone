@@ -1,0 +1,124 @@
+*{
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    border: border-box;
+}
+.navbar{
+    height: 100px;
+    background-color: #0f1111;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+.nav-logo{
+    height: 100px;
+    width: 300px;
+    background-color: aqua;
+    position: absolute;
+    left: 0;
+}
+.logo{
+    background-image: url(./images/amazonlogo.png);
+    background-size: cover;
+    height: 100px;
+    width: 300px;
+}
+.add-first{
+    color: #cccccc;
+    font-size: 0.85rem;
+    margin-left: 15px;
+}
+.add-sec{
+    font-size: 1rem;
+    margin-left: 3px;
+
+}
+.add-icon{
+    display: flex;
+    align-items: center;
+}.nav-address{
+    margin-left: 15px;
+}
+.nav-search{
+    height: 40px;
+    width: 600px;
+    display: flex;
+    justify-content: space-evenly;
+    background-color: pink;
+    border-radius: 4px;
+}
+.search-select{
+    background-color: #f3f3f3;
+    text-align: center;
+    width: 50px;
+    border-top-left-radius: 4px;
+    border-bottom-left-radius: 4px;
+    border: none;
+
+}
+.search-input{
+    width: 100%;
+    font-size: 1rem;
+    border: none;
+}
+.search-icon{
+    width: 45px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: orange;
+    border-top-right-radius: 4px;
+    border-bottom-right-radius: 4px;
+    color: black;
+}
+.nav-cart i {
+    font-size: 35px;
+}
+.nav-cart{
+    font-size: 0.85rem;
+    font-weight: 700;
+}
+.panel{
+    height: 40px;
+    background-color: #222f3d;
+    display: flex;
+    color: white;
+    align-items: center;
+    justify-content: space-evenly;
+    
+}
+.panel-ops p{
+    display: inline;
+    font-size: 0.85rem;
+    margin-left: 15px;
+}
+.panel-ops{
+    width: 70%;
+}
+.panel-details{
+    font-size: 0.9rem;
+    font-weight: 700;
+}
+.hero-section{
+    background-image: url(/images/amazonlogo.png);
+    height: 400px;
+    background-size: cover ;
+    display: flex;
+    justify-content: center;
+    align-items: end;
+
+
+}
+.hero-text{
+    background-color: white;
+    height: 40px;
+    color: black;
+    display: flex;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    font-size: 0.85rem;
+    width: 80%;
+    margin-bottom: 25px;
+}
